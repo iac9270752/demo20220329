@@ -5,7 +5,7 @@ metadata:
   labels:
     app: alpine
 spec:
-  replicas: 5
+  replicas: 2
   selector:
     matchLabels:
       app: alpine
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: alpine
-        image: iac9270752/yakekuso:20220404
+        image: iac9270752/yakekuso:20220328
         ports:
         - containerPort: 3000
