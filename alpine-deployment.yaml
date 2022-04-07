@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: alpine
-        image: iac9270752/yakekuso:20220328
+        image: iac9270752/yakekuso:20220404
         ports:
         - containerPort: 3000
